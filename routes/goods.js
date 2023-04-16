@@ -12,6 +12,7 @@ const goods = [
     category: "drink",
     price: 0.1,
   },
+
   {
     goodsId: 3,
     name: "상품 3",
@@ -76,6 +77,7 @@ await Cart.create({goodsId, quantity});
 
 res.json({result : "success"})
 })
+
 
 
 //장바구니에서 수정
